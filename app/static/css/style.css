@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1F1F1;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+img{
+    padding: 5px;
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    img{
+        width: 100%;
+    }
+}
